@@ -25,9 +25,11 @@ html {
   padding: auto 0;
 } */
 
+/* better version with custom properties */
 .outer-box {
+  --height: 500px;
   width: 600px;
-  height: 400px;
+  height: var(--height);
   background: hsl(213, 87%, 79%);
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgb(0 0 0 /0.2);
@@ -35,4 +37,7 @@ html {
 
 .inner-text {
   font-size: 3rem;
+  text-align: center;
+  line-height: var(--height);
+  margin: 0;
 }
