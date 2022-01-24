@@ -1,0 +1,38 @@
+/* 
+ - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+html {
+  /* default: 10px */
+  /* 10 / 16 * 100 = 62.5 */
+  /* font-size: 62.5%; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .container {
+  padding: auto 0;
+} */
+
+.outer-box {
+  width: 600px;
+  height: 400px;
+  background: hsl(213, 87%, 79%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgb(0 0 0 /0.2);
+}
+
+.inner-text {
+  font-size: 3rem;
+}
