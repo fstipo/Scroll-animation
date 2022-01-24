@@ -24,6 +24,7 @@ html {
 body {
   font-family: 'Roboto', sans-serifs;
   background: #f3efe7;
+  overflow-x: hidden;
 }
 
 .container {
