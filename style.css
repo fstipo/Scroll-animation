@@ -25,22 +25,17 @@ html {
   padding: auto 0;
 } */
 
-/* Absolute position - better version with inset*/
+/* Best version for center text or element*/
 .outer-box {
-  position: relative;
-
+  padding: 200px 0;
   width: 600px;
-  height: 400px;
   background: hsl(213, 87%, 79%);
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgb(0 0 0 /0.2);
 }
 
 .inner-box {
-  position: absolute;
-  inset: 0;
-  margin: auto;
-
+  margin: 0 auto;
   background: hsl(343, 69%, 64%);
   border: 10px dashed hsl(333, 60%, 34%);
   width: 200px;
