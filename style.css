@@ -25,20 +25,34 @@ html {
   padding: auto 0;
 } */
 
-/* For tables */
+/* Absolute position*/
 .outer-box {
+  position: relative;
+
   width: 600px;
   height: 400px;
   background: hsl(213, 87%, 79%);
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgb(0 0 0 /0.2);
-  display: table;
 }
 
-.inner-text {
+.inner-box {
+  position: absolute;
+  /*  corner of element is on the middle */
+  top: 50%;
+  left: 50%;
+  /*center of element*/
+  transform: translate(-50%, -50%);
+
+  background: hsl(343, 69%, 64%);
+  border: 10px dashed hsl(333, 60%, 34%);
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+}
+
+/* .inner-text {
   font-size: 3rem;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
   margin: 0;
-}
+} */
