@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serifs;
+  background: #f3efe7;
 }
 
 .container {
@@ -49,7 +50,7 @@ body {
   margin-bottom: 2.5rem;
   box-shadow: 0.2rem 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
 }
 
 .box:nth-last-of-type(even) {
