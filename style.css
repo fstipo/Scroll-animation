@@ -25,7 +25,7 @@ html {
   padding: auto 0;
 } */
 
-/* Absolute position*/
+/* Absolute position - better version with inset*/
 .outer-box {
   position: relative;
 
@@ -38,11 +38,8 @@ html {
 
 .inner-box {
   position: absolute;
-  /*  corner of element is on the middle */
-  top: 50%;
-  left: 50%;
-  /*center of element*/
-  transform: translate(-50%, -50%);
+  inset: 0;
+  margin: auto;
 
   background: hsl(343, 69%, 64%);
   border: 10px dashed hsl(333, 60%, 34%);
